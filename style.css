@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+.background-image {
+    background-image: url(image/thumb-1920-1338701.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff5e57;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #ff4a43;
+}
+
+section {
+    padding: 50px 20px;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+}
+
+section#projects h2 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    background: #333;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+footer {
+    padding: 10px;
+    background-color: #1a1a1a;
+    text-align: center;
+    font-size: 0.9rem;
+}
